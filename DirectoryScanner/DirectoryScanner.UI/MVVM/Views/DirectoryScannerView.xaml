@@ -9,6 +9,8 @@
              d:DesignHeight="650"
              d:DesignWidth="1130">
     <Grid>
+        
+        
         <!--Grid setup-->
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -93,7 +95,7 @@
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Style="{StaticResource InViewButton}"
-                Content="Выбрать папку и начать"
+                Content="Select directory and start scan"
                 Command="{Binding SelectAndStartCommand}" />
 
         <Button Grid.Row="1"
@@ -104,7 +106,7 @@
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Style="{StaticResource InViewButton}"
-                Content="Остановить"
+                Content="Cancel"
                 Command="{Binding  CancelCommand}" />
     </Grid>
 </UserControl>

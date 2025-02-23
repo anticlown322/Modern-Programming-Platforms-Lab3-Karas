@@ -23,26 +23,23 @@
             FontSize="22"
             Foreground="White"
             TextWrapping="WrapWithOverflow">
-            The purpose of this application is to test 
-            the speed of your Internet connection. <LineBreak/>
-            Before starting the test, check your internet connection. <LineBreak/>
-            Public information about your internet connection will be shown
-            in "General info" block on the "Tester" page. <LineBreak/>
-            To start the test, click the "Start" button on the "Tester" page. 
-            Be patient, the test will take some time. <LineBreak/>
-            You can monitor your Internet connection parameters live during the test. 
-            They are shown in blocks on the right and inside 
-            the speedometer on the "Tester" page. 
+            The purpose of this application is to scan specified directory from 
+            the computer file system and show how much space files consume. <LineBreak/>
+            To start the scanning process, click the "Select directory and start scan" button 
+            on the "Scanner" page. Then select the directory from the file system for scanning. 
+            Be patient, scanning process may take some time. <LineBreak/>
+            If you want to stop the scanning process, just click the "Cancel" button. 
+            But remember, you will see only partial results then.
             <LineBreak/>
             <LineBreak/>
-            [!Note!] Please note that the upload average speed will 
-            be calculated approximately 10 seconds after the end of the test
+            To inspect the result, use the "file system"-like screen on the "Scanner" page.
+            It will show files and directories starting from the specified directory. 
+            Also you will see the calculations showing how much space files and directories consume.
             <LineBreak/>
             <LineBreak/>
             Currently available hotkeys: <LineBreak/>
             • Esc - close application<LineBreak/>
             • Ctrl+M - minimize window<LineBreak/>
-            <LineBreak/>
         </TextBlock>
 
         <!--End-->

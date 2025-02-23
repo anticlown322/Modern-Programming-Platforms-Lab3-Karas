@@ -23,24 +23,12 @@
             FontSize="22"
             Foreground="White"
             TextWrapping="WrapWithOverflow">
-                This is a simple application for testing users newtork speeds.
-                It is a part of a course project, so it can be freely used and improved.
-                The source of information that helped develop this application 
-                is listed on the 
+                This is a simple application for scanning specified directory and
+                show how much space files consume. It is one of my laboratory works.
+                Source code and (not sure) description is available at the   
                 <Hyperlink Command="{Binding GithubPageCommand}">github page</Hyperlink>  
-                of this project
+                of this project.
                 <LineBreak/>
-                <LineBreak/>
-                At the moment application has the following features: <LineBreak/>
-                    - Measuring ping <LineBreak/>
-                    - Measuring download speed <LineBreak/>
-                    - Measuring upload speed <LineBreak/>
-                <LineBreak/>
-                Please note that the application selects a server from a pool 
-                which is quite small, so measurements may not be correct 
-                for your region. It also doesn't use network's maximum bandwidth 
-                and needs some time to calculate average upload speed(hope 
-                this will all be fixed in the future).
                 <LineBreak/>
                 Links to my profiles:
         </TextBlock>

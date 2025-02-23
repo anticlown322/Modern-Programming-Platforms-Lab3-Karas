@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:DirectoryScanner.UI.MVVM.ViewModels"
         mc:Ignorable="d"
-        Height="850"
+        Height="720"
         Width="1200"
         WindowStyle="None"
         ResizeMode="NoResize"
@@ -17,6 +17,15 @@
     <Window.DataContext>
         <viewModels:MainViewModel />
     </Window.DataContext>
+    
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding CloseWindowCommand}" 
+                    CommandParameter="{Binding ElementName=WndMain}" 
+                    Key="Esc" />
+        <KeyBinding Command="{Binding MinimizeWindowCommand}" 
+                    CommandParameter="{Binding ElementName=WndMain}" 
+                    Gesture="Ctrl+M"/>
+    </Window.InputBindings>
     
     <Border CornerRadius="20"
             BorderThickness="1"
